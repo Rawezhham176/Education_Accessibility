@@ -1,0 +1,87 @@
+.front {
+  margin: 50px 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.front_img {
+  width: 100%;
+  box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.4);
+  margin-bottom: 50px;
+}
+
+.front_header {
+  font-size: 80px;
+  color: #0066ff;
+  margin-bottom: 20px;
+}
+
+.front_header span {
+  color: #ff0000;
+  border-bottom: 5px solid #ff0000;
+}
+
+.front_p {
+  font-size: 20px;
+  float: center;
+  margin-top: 30px;
+}
+
+.plan_sec {
+  margin-top: 100px;
+}
+
+.plan_img {
+  float: right;
+  position: absolute;
+  right: 9%;
+  z-index: 1000;
+  width: 40%;
+}
+
+.plan_text {
+  width: 60%;
+  height: 45%;
+  float: right;
+  right: 40%;
+  margin-top: 20%;
+  border-radius: 25px;
+  padding: 50px;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+.plan_t {
+  text-align: right;
+  width: 70%;
+  margin-left: 80px;
+}
+
+.plan_h {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: right;
+  color: #ff0000;
+}
+
+.plan_p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.feedback {
+  width: 100%;
+  position: relative;
+  top: 1000px;
+}
+
+.feedback_h1 {
+}
+
+.feedback_people img {
+  width: 30%;
+}
