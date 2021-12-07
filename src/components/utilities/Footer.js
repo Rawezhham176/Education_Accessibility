@@ -17,6 +17,7 @@ const Footer = () => {
             deutsch: erworbenes Immun­schwäche­syndeit Beginn 
             der Epide­mie starben 35 Milun­schwäche­syndeit Beginn 
             der Epide­mie starben 35 </p>
+            <p style={{marginTop: 20}}>Copyright &copy; 2021</p>
             </footer>
         </div>
     )

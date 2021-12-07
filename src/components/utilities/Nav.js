@@ -1,10 +1,15 @@
-import React from 'react'
+import { useState } from 'react'
 import { Link, Route, Routes, BrowserRouter as Router } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserAlt } from '@fortawesome/free-solid-svg-icons'
+import Login from './Login'
+
 import '../../styles/nav.css'
 
-const nav = () => {
+const Nav = () => {
+
+    const [showLogin, setshowLogin] = useState("none")
+
     return (
         <header>
             <div className='logo'>Logo</div>
@@ -23,9 +28,10 @@ const nav = () => {
              </ul>
              </Router>
         </div>
-                     <div className='avatar'><FontAwesomeIcon icon={faUserAlt} /></div>
+                     <div className='avatar' onClick={() => showLogin == 'none' ? setshowLogin('block') : setshowLogin('none')} ><FontAwesomeIcon icon={faUserAlt} /></div>
+                     <Login display={showLogin}/>
         </header>
     )
 }
 
-export default nav
+export default Nav
