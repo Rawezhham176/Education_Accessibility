@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, Route, Routes, BrowserRouter as Router } from 'react-router-dom'
-import '../../styles/home.css'
+import '../../styles/homepage/footer.css'
 
 const Footer = () => {
     return (

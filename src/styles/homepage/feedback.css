@@ -1,0 +1,94 @@
+.feedback {
+  margin-top: 50px;
+  margin-bottom: 750px;
+  width: 100%;
+  height: 1000px;
+}
+
+.feedbak_people {
+  position: relative;
+  height: 100%;
+}
+
+.feedback_h1 {
+  color: #0066ff;
+  width: 80%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+
+.feedback_h2 {
+  margin-top: 250px;
+  text-align: right;
+  float: right;
+}
+
+.feedback_people1 {
+  margin: 20px;
+  width: 40%;
+  position: absolute;
+}
+
+.feedback_people2 {
+  position: absolute;
+  width: 40%;
+  left: 60%;
+  top: -10%;
+}
+
+.feedback_people3 {
+  margin: 20px;
+  width: 40%;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+
+.feedback_people4 {
+  position: absolute;
+  width: 40%;
+  top: 60%;
+}
+
+.feedback_people5 {
+  position: absolute;
+  width: 40%;
+  left: 60%;
+  top: 80%;
+}
+
+.p1 {
+  width: 100%;
+  border-radius: 35px;
+}
+
+.p1_text {
+  font-size: 30px;
+  width: 100%;
+}
+
+.p2_text {
+  font-size: 30px;
+  width: 100%;
+  text-align: right;
+  margin-right: 90px;
+}
+
+.p3_text {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.p4_text {
+  font-size: 30px;
+  width: 100%;
+}
+
+.p5_text {
+  font-size: 30px;
+  width: 100%;
+  text-align: right;
+}

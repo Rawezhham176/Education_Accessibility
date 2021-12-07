@@ -7,8 +7,8 @@ const Home = () => {
         <>
         <Frontpage />
         <Planer />
-        {/* <Feedback /> */}
-        {/* <Donation /> */}
+        <Feedback />
+        <Donation />
         </>
     )
 }

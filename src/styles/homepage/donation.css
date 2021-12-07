@@ -3,18 +3,19 @@
 }
 
 form {
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.1);
   margin: 100px;
-  padding: 30px;
+  padding: 60px 30px;
   position: relative;
 }
 
 .header {
   position: absolute;
-  top: -32px;
+  top: -30%;
   background-color: white;
   padding: 10px;
   color: #0066ff;
+  font-size: 60px;
 }
 
 .custom-field {
@@ -66,7 +67,7 @@ form .submit:hover {
 
 .custom-field .placeholder {
   position: absolute;
-  left: var(--field-padding);
+  left: 10%;
   width: calc(100% - (var(--field-padding) * 2));
   overflow: hidden;
   white-space: nowrap;

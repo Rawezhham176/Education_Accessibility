@@ -20,7 +20,6 @@ const Planer = () => {
                     </div>
                 </div>
             </div> 
-            <div className='du'></div>
         </div>
     )
 }

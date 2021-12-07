@@ -1,0 +1,31 @@
+footer {
+  position: relative;
+  padding: 50px;
+  background-color: #0066ff;
+  border-radius: 25px 25px 0 0;
+  text-align: center;
+  color: white;
+  bottom: 0;
+}
+
+footer ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: all 1s ease-in-out;
+}
+
+.footer_link:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
