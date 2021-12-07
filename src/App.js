@@ -1,4 +1,4 @@
-import { Nav, Donation, Footer } from './components'
+import { Nav, Footer } from './components'
 import { Home } from './pages'
 import './App.css';
 
@@ -7,7 +7,6 @@ function App() {
     <div className='container'>
     <Nav />
     <Home />
-    <Donation />
     <Footer />
     </div>
   );

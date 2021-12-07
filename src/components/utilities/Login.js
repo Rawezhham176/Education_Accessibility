@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Donation = () => {
+const Login = () => {
     return (
         <div>
-            Donation
+            
         </div>
     )
 }
 
-export default Donation
+export default Login
