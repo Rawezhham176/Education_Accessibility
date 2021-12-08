@@ -6,7 +6,7 @@ const Planer = () => {
     return (
         <div>
             <div className='plan_sec'>
-                <img src={plan} className='plan_img'/>
+                <img src={plan} className='plan_img' alt='plan for study'/>
                 <div className='plan_text'>
                     <div className='plan_t'>
                         <h1 className='plan_h'>Individual Plan for each one...</h1>

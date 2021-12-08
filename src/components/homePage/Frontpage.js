@@ -6,7 +6,7 @@ const Frontpage = () => {
     return (
         <div>
             <div className='front'>
-            <img src={front_img} className='front_img' />
+            <img src={front_img} className='front_img' alt='child with book' />
             <h1 className='front_header'>We Need <span>Education</span></h1>
             <p className='front_p'>
             Acquired Immune Deficiency Syndrome, 

@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../styles/homePage/home.css'
-import { Frontpage, Feedback, Donation, Planer, Nav, Footer } from '../../components'
-import { AuthProvider } from '../../context/AuthContext'
+import { Frontpage, Feedback, Donation, Planer, Nav } from '../../components'
 
 const Home = () => {
     return (

@@ -25,7 +25,7 @@ const Login = ({ display }) => {
 
     const [Error, setError] = useState("")
     const [Loading, setLoading] = useState(false);
-    const [Height, setHeight] = useState(550);
+    const [Height] = useState(550);
 
 
     const navigator = useNavigate()

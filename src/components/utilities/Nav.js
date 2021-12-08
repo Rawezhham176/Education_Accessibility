@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link, Route, Routes, BrowserRouter as Router } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserAlt } from '@fortawesome/free-solid-svg-icons'
 import Login from './Login'
@@ -26,7 +26,7 @@ const Nav = () => {
                      </li>
              </ul>
         </div>
-                     <div className='avatar' onClick={() => showLogin == 'none' ? setshowLogin('block') : setshowLogin('none')} ><FontAwesomeIcon icon={faUserAlt} /></div>
+                     <div className='avatar' onClick={() => showLogin === 'none' ? setshowLogin('block') : setshowLogin('none')} ><FontAwesomeIcon icon={faUserAlt} /></div>
                      <Login display={showLogin}/>
         </header>
     )
