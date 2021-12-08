@@ -1,6 +1,6 @@
 import React from 'react'
 import plan from '../../img/plan.png'
-import '../../styles/home.css'
+import '../../styles/homePage/home.css'
 
 const Planer = () => {
     return (

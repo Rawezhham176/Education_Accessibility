@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/home.css'
+import '../../styles/homePage/home.css'
 import front_img from '../../img/siuu.jpg'
 
 const Frontpage = () => {

@@ -13,8 +13,9 @@
   display: none;
 }
 
-.login button {
+button {
   border: none;
+  width: 100%;
   background-color: white;
   padding: 7px 20px;
   margin-bottom: 10px;
@@ -36,11 +37,11 @@ button:hover {
 
 .signIn {
   width: 20%;
-  height: 250px;
+  height: 300px;
   background: #ff0000;
   position: absolute;
-  right: 0;
-  top: 150%;
+  right: -9%;
+  top: -100%;
   backdrop-filter: blur(1px);
   box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.4);
   justify-content: center;
@@ -50,6 +51,7 @@ button:hover {
 }
 
 .signIn input {
+  width: 100%;
   margin: 20px 0;
   padding: 10px;
   outline: none;
@@ -67,6 +69,7 @@ button:hover {
   color: white;
   transition: all 0.5s ease;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .signinClose:hover {
@@ -75,11 +78,11 @@ button:hover {
 
 .signUp {
   width: 20%;
-  height: 380px;
+  /* height: 510px; */
   background: #ff0000;
   position: absolute;
-  right: 0;
-  top: 150%;
+  right: -9%;
+  top: -100%;
   backdrop-filter: blur(1px);
   box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.4);
   justify-content: center;
@@ -89,6 +92,7 @@ button:hover {
 }
 
 .signUp input {
+  width: 100%;
   margin: 20px 0;
   padding: 10px;
   outline: none;
@@ -99,4 +103,14 @@ button:hover {
 
 .signUp input:focus {
   box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.2);
+}
+
+.alert {
+  color: white;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: black;
+  padding: 10px;
+  font-weight: 700;
+  transition: all 0.5s ease;
 }
