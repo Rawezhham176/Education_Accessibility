@@ -1,5 +1,5 @@
 import React from 'react'
-import plan from '../../img/plan.png'
+import { plan } from '../../img'
 import '../../styles/homePage/home.css'
 
 const Planer = () => {

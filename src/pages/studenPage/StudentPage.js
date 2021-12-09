@@ -1,9 +1,10 @@
 import React from 'react'
+import Nav from '../../components/studentPage/Nav'
 
 const StudentPage = () => {
     return (
         <div>
-            Student
+            <Nav />
         </div>
     )
 }

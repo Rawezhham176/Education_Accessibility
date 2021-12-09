@@ -1,8 +1,8 @@
 import React from 'react'
-import '../../styles/homePage/home.css'
-import { front_img } from '../../img'
+import '../../styles/studentPage/home.css'
+import front_img from '../../img/siuu.jpg'
 
-const Frontpage = () => {
+const FrontPage = () => {
     return (
         <div>
             <div className='front'>
@@ -19,4 +19,4 @@ const Frontpage = () => {
     )
 }
 
-export default Frontpage
+export default FrontPage

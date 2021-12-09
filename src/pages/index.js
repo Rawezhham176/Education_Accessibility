@@ -1,3 +1,8 @@
 export { default as Home } from './homePage/Home'
 export { default as Student } from './studenPage/StudentPage'
 export { default as Teacher } from './teacherPage/Teacher'
+export { default as Classes } from './classesPage/Classes'
+export { default as Exam } from './examsPage/Exams'
+export { default as MyRoom } from './myroomPage/MyRoom'
+export { default as Lesson } from './lessonPage/Lesson'
+export { default as Join } from './joinPage/Join'

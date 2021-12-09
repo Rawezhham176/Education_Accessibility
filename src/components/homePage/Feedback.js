@@ -1,9 +1,5 @@
 import React from 'react'
-import p1 from '../../img/p1.jpg'
-import p2 from '../../img/A1_Visa.jpg'
-import p3 from '../../img/siuuuu.jpg'
-import p4 from '../../img/ye.jpg'
-import p5 from '../../img/images.jfif'
+import { p1, p2, p3, p4, p5 } from '../../img'
 import '../../styles/homePage/feedback.css'
 
 const Feedback = () => {
