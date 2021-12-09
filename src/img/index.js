@@ -8,4 +8,6 @@ export { default as p3 } from './homePage/siuuuu.jpg'
 export { default as p4 } from './homePage/ye.jpg'
 export { default as p5 } from './homePage/images.jfif'
 
+
 // Studentpage
+export { default as classRoom } from './studentPage/class.jpg'

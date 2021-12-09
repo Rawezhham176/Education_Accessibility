@@ -10,7 +10,6 @@ import { useNavigate } from 'react-router-dom'
 
 
 const Logout = ({ display }) => {
-    const [signOut, setSignOut] = useState('none');
     const [dis, setdis] = useState('')
 
     const { logout } = useAuth()
@@ -29,7 +28,7 @@ const Logout = ({ display }) => {
             setError("")
             setLoading(true)
          await logout()
-         navigator('/home')
+         navigator('/')
         } catch {
             return setError("Logout failed")
         }
@@ -42,11 +41,11 @@ const Logout = ({ display }) => {
 
     return (
         <>
-        <Form className='logout' onSubmit={handleLogOut} style={{display: display}}>
+        <Form className='logout' onSubmit={handleLogOut} style={{display: dis}}>
         <div>
             {Error && <Alert variant='danger'>{Error}</Alert>}
-            <FontAwesomeIcon icon={faTimes} className='signinClose' onClick={() => setSignOut('none')}/>
-            <h1 style={{color: 'white'}}>SIGN OUT</h1>
+            <FontAwesomeIcon icon={faTimes} className='signoutClose' onClick={() => setdis('none')}/>
+            <h1 style={{color: 'white'}} className='logout_h'>SIGN OUT</h1>
             <button type='submit' disabled={Loading} >SIGN OUT</button>
         </div>
         </Form>

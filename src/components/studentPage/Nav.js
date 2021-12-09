@@ -28,7 +28,7 @@ const Nav = () => {
                      <Link to='/exams' className='list_link'>EXAMS</Link>
                  </li>
                  <li>
-                     <Link to='/myroom' className='list_link'>MAY ROOM</Link>
+                     <Link to='/myroom' className='list_link'>MY ROOM</Link>
                  </li>
              </ul>
         </div>

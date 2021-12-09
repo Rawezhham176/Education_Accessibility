@@ -1,10 +1,14 @@
 import React from 'react'
-import Nav from '../../components/studentPage/Nav'
+import { StudentNav, StudentFrontpage, StudentPlan, StudentWelcome, StudentFirstSteps } from '../../components'
 
 const StudentPage = () => {
     return (
         <div>
-            <Nav />
+            <StudentNav />
+            <StudentFrontpage />
+            <StudentPlan />
+            <StudentFirstSteps />
+            <StudentWelcome />
         </div>
     )
 }

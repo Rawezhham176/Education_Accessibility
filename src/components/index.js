@@ -6,6 +6,14 @@ export { default as Feedback } from './homePage/Feedback'
 export { default as Planer } from './homePage/Planer'
 
 
+// Student Page
+export { default as StudentNav } from './studentPage/Nav' 
+export { default as StudentFrontpage } from './studentPage/Front' 
+export { default as StudentPlan } from './studentPage/Plan' 
+export { default as StudentFirstSteps } from './studentPage/FirstSteaps' 
+export { default as StudentWelcome } from './studentPage/Welcome' 
+
+
 // Login 
 export { default as Profile } from './profile/Profile'
 export { default as Signup } from './profile/Signup'
