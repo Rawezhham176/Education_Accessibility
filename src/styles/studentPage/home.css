@@ -80,3 +80,31 @@
 .first_page_mentor:hover {
   color: #ff0000;
 }
+
+.welcome_box {
+  border-top: 2px solid #ff0000;
+  border-bottom: 2px solid #ff0000;
+  padding: 60px 20px;
+  margin-bottom: 20%;
+  display: flex;
+}
+
+.welcome_text {
+  width: 48%;
+}
+
+.welcome_text_h {
+  margin: 20px 0;
+}
+
+.welcome_text_p {
+}
+
+.welcome_img {
+  width: 50%;
+  height: auto;
+  border-radius: 20%;
+  box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.4);
+  float: right;
+  margin-left: 20px;
+}

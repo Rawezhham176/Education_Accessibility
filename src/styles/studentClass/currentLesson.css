@@ -1,0 +1,66 @@
+.current_box {
+  width: 50%;
+  text-align: right;
+  height: 400px;
+  margin-bottom: 200px;
+  position: relative;
+  margin-left: 50%;
+  margin-top: 50px;
+  justify-content: right;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.current_box_text_h {
+  color: #0066ff;
+  font-size: 50px;
+}
+
+.current_box_text_s {
+  color: #0066ff;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.current_box_text_p {
+  font-size: 20px;
+}
+
+.current_box button {
+  background-color: #ff0000;
+  width: 50%;
+  color: white;
+  transition: all 0.5s ease;
+  margin-right: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.current_box button:hover {
+  background-color: white;
+  border: 1px solid #0066ff;
+  color: #0066ff;
+}
+
+.current_box_stuffForWork {
+  background-color: #0066ff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.current_box_stuffForWork h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.current_box_stuffForWork a {
+  color: white;
+  margin-bottom: 20px;
+  transition: all 0.5s ease;
+}
+
+.current_box_stuffForWork a:hover {
+  color: black;
+}

@@ -14,6 +14,14 @@ export { default as StudentFirstSteps } from './studentPage/FirstSteaps'
 export { default as StudentWelcome } from './studentPage/Welcome' 
 
 
+// Student Classes
+export { default as ClassMates } from './classesPage/ClasssMates' 
+export { default as CurrentLesson } from './classesPage/CurrentLesson' 
+export { default as PreviousLesson } from './classesPage/PreviousLesson' 
+export { default as Teachers } from './classesPage/Teachers' 
+export { default as SchedualToday } from './classesPage/SchedualToday' 
+
+
 // Login 
 export { default as Profile } from './profile/Profile'
 export { default as Signup } from './profile/Signup'
