@@ -32,6 +32,6 @@ Provide the education as a web application in the cloud. The Student could get a
 ![alt text](./github/dd.png)
 
 # The tools we used
-## JavaScript(ReactJS, expressJS)
+## JavaScript (ReactJS, expressJS)
 ## Html, Css (bootstrap)
 ## Heroku Cloud, Firebase 
