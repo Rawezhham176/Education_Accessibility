@@ -34,4 +34,4 @@ Provide the education as a web application in the cloud. The Student could get a
 # The tools we used
 ## JavaScript (ReactJS, expressJS)
 ## Html, Css (bootstrap)
-## Heroku Cloud, Firebase 
+## Heroku Cloud, Firebase (Authentication, Storage, Database)
