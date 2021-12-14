@@ -30,3 +30,8 @@ In the end, Youth Academy wants to prepare our future generations of students an
 Provide the education as a web application in the cloud. The Student could get an individual plan for their study carrier. At the end of their study they will get a certification, which give them the opportunity to get to the university.
 
 ![alt text](./github/dd.png)
+
+# The tools we used
+## JavaScript(ReactJS, expressJS)
+## Html, Css (bootstrap)
+## Heroku Cloud, Firebase 
